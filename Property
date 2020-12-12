@@ -1,0 +1,9 @@
+<?PHP
+  Class Buah { 
+      var $warna;
+      var $rasa;
+      var $aneka;
+
+
+}
+?>
