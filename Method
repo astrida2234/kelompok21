@@ -1,0 +1,22 @@
+<?php
+
+class buah{
+    //property OOP
+    var $warna;
+    var $rasa;
+    var $aneka;
+
+    //method OOP
+    function warna(){
+        return "hijau <br/>";
+}
+    function rasa(){
+       return "manis <br/>";
+    }
+
+    function aneka(){
+       return "alpukat <br/>";
+  }
+}
+
+?>
