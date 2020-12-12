@@ -1,0 +1,21 @@
+<?php
+// buat class buah
+class buah {
+  
+   // buat property untuk class buah
+   var $aneka;
+   var $macam;
+   var $rasa_bandung;
+  
+   // buat method untuk class buah
+   function hidupkan_buah() {
+     return "Hidupkan Buah";
+   }
+   function matikan_buah() {
+     return "Matikan Buah";
+   }
+}
+  
+// buat objek dari class buah (instansiasi)
+$aneka_buah = new buah();
+?>
