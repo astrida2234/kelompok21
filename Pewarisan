@@ -1,0 +1,40 @@
+<?php 
+//www.malasngoding.com
+// class buah
+class buah{
+ 
+  // property class buah
+  public $nama_buah;  
+ 
+   // method pada class buah
+  function beraneka($buah){
+    $this->nama_buah=$anggur;
+  }
+  
+}
+ 
+// class turunan atau sub class dari class buah
+// kita menghubungkan class dengan syntax extends
+class aneka extends buah{
+ 
+  // property class aneka
+  public $aneka_buah;
+ 
+   // method pada class aneka
+  function beraneka($buah){
+    $this->nama_buah=$alpukat;
+  }
+}
+ 
+// instansiasi class buah
+$malasngoding = new buah;
+ 
+// method beri aneka adalah method pada class buah, tapi kita bisa mengaksesnya karena telah menghubungkan class teman dengan class manusia
+$buah->beraneka(" buah ");
+$buah->berasa(" manis ");
+ 
+// menampilkan isi property
+echo "buah :" . $beraneka->buah_apel . "<br/>";
+echo "buah : " . $berasa->asam_manis;
+ 
+?>
